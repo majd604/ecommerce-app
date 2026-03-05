@@ -1,21 +1,65 @@
- HEAD
-# ecommerce_app
+# Flutter E-Commerce App
 
-A new Flutter project.
+A modern **E-Commerce Mobile Application** built with Flutter.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+* User Authentication (Login / Register)
+* Product Search
+* Product Details
+* Add to Cart
+* Checkout System
+* Stripe Payment Integration
+* Order History
+* Address Management
+* Dark Mode Support
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* Flutter
+* GetX
+* Firebase
+* Stripe
+* Cloudinary
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# ecommerce-app
-Flutter app using GetX + Firebase
- 1b9e9e8cdb723726bbcd78df04f5965885338a54
+## App Screenshots
+
+### Onboarding
+
+![Onboarding](screenshots/onbording1.jpeg)
+![Onboarding](screenshots/onbording2.jpeg)
+![Onboarding](screenshots/onbording3.jpeg)
+
+### Authentication
+
+![Sign In](screenshots/signin.jpeg)
+![Sign Up](screenshots/signup.jpeg)
+
+### Home
+
+![Home](screenshots/home.jpeg)
+![Home Dark](screenshots/home2.jpeg)
+
+### Product
+
+![Product](screenshots/productDetails.jpeg)
+
+### Cart
+
+![Cart](screenshots/cart.jpeg)
+
+### Checkout
+
+![Order Review](screenshots/orderReview.jpeg)
+
+### Payment
+
+![Stripe Payment](screenshots/payment_stripe.jpeg)
+
+### Profile
+
+![Profile](screenshots/profile.jpeg)
+
+### Orders
+
+![Orders](screenshots/myOrders.jpeg)
