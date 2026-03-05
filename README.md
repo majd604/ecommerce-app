@@ -13,6 +13,9 @@ A modern **E-Commerce Mobile Application** built with Flutter.
 * Order History
 * Address Management
 * Dark Mode Support
+* - Email Verification
+* - Password Reset
+* - Google Sign-In
 
 ## Technologies
 
@@ -25,41 +28,48 @@ A modern **E-Commerce Mobile Application** built with Flutter.
 ## App Screenshots
 
 ### Onboarding
-
-![Onboarding](screenshots/onbording1.jpeg)
-![Onboarding](screenshots/onbording2.jpeg)
-![Onboarding](screenshots/onbording3.jpeg)
+<img src="./screenshots/onbording1.jpeg" width="220" />
+<img src="./screenshots/onbording2.jpeg" width="220" />
+<img src="./screenshots/onbording3.jpeg" width="220" />
 
 ### Authentication
+<img src="./screenshots/signin.jpeg" width="220" />
+<img src="./screenshots/signup.jpeg" width="220" />
 
-![Sign In](screenshots/signin.jpeg)
-![Sign Up](screenshots/signup.jpeg)
+### Home (Light / Dark)
+<img src="./screenshots/home.jpeg" width="220" />
+<img src="./screenshots/home2.jpeg" width="220" />
 
-### Home
+### Store
+<img src="./screenshots/store.jpeg" width="220" />
+<img src="./screenshots/store2.jpeg" width="220" />
 
-![Home](screenshots/home.jpeg)
-![Home Dark](screenshots/home2.jpeg)
+### Search
+<img src="./screenshots/search.jpeg" width="220" />
+<img src="./screenshots/search2.jpeg" width="220" />
 
-### Product
+### Product Details
+<img src="./screenshots/productDetails.jpeg" width="220" />
+<img src="./screenshots/productDetails2.jpeg" width="220" />
 
-![Product](screenshots/productDetails.jpeg)
+### Wishlist
+<img src="./screenshots/whisList.jpeg" width="220" />
 
-### Cart
-
-![Cart](screenshots/cart.jpeg)
-
-### Checkout
-
-![Order Review](screenshots/orderReview.jpeg)
-
-### Payment
-
-![Stripe Payment](screenshots/payment_stripe.jpeg)
-
-### Profile
-
-![Profile](screenshots/profile.jpeg)
+### Cart & Checkout
+<img src="./screenshots/cart.jpeg" width="220" />
+<img src="./screenshots/orderReview.jpeg" width="220" />
+<img src="./screenshots/payment_stripe.jpeg" width="220" />
 
 ### Orders
+<img src="./screenshots/myOrders.jpeg" width="220" />
 
-![Orders](screenshots/myOrders.jpeg)
+### Profile
+<img src="./screenshots/profile.jpeg" width="220" />
+<img src="./screenshots/editprofile.jpeg" width="220" />
+
+### Addresses
+<img src="./screenshots/Addresses.jpeg" width="220" />
+<img src="./screenshots/deleteAdreess.jpeg" width="220" />
+
+### Splash
+<img src="./screenshots/splash.jpeg" width="220" />
