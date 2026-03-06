@@ -1,75 +1,153 @@
-# Flutter E-Commerce App
+# Flutter E-Commerce App 🛒
 
-A modern **E-Commerce Mobile Application** built with Flutter.
+A modern **E-Commerce Mobile Application** built using **Flutter** with a complete shopping experience including authentication, product browsing, cart management, checkout, and secure payments.
 
-## Features
+This project demonstrates building a **real-world Flutter application** using **Firebase**, **GetX state management**, and **Stripe payment integration**.
 
-* User Authentication (Login / Register)
-* Product Search
-* Product Details
-* Add to Cart
-* Checkout System
-* Stripe Payment Integration
-* Order History
-* Address Management
-* Dark Mode Support
-* - Email Verification
-* - Password Reset
-* - Google Sign-In
+---
 
-## Technologies
-
-* Flutter
-* GetX
-* Firebase
-* Stripe
-* Cloudinary
-
-## App Screenshots
-
-### Onboarding
-<img src="./screenshots/onbording1.jpeg" width="220" />
-<img src="./screenshots/onbording2.jpeg" width="220" />
-<img src="./screenshots/onbording3.jpeg" width="220" />
+# Features
 
 ### Authentication
-<img src="./screenshots/signin.jpeg" width="220" />
-<img src="./screenshots/signup.jpeg" width="220" />
+- User Registration & Login
+- Email Verification
+- Password Reset
+- Google Sign-In
 
-### Home (Light / Dark)
-<img src="./screenshots/home.jpeg" width="220" />
-<img src="./screenshots/home2.jpeg" width="220" />
+### Product & Store
+- Product Catalog
+- Product Categories
+- Product Search
+- Product Details Page
+- Wishlist System
 
-### Store
-<img src="./screenshots/store.jpeg" width="220" />
-<img src="./screenshots/store2.jpeg" width="220" />
+### Shopping Experience
+- Add to Cart
+- Cart Management
+- Checkout System
+- Stripe Payment Integration
+- Order History
 
-### Search
-<img src="./screenshots/search.jpeg" width="220" />
-<img src="./screenshots/search2.jpeg" width="220" />
+### User Profile
+- Profile Management
+- Address Management
+- Saved Addresses
 
-### Product Details
-<img src="./screenshots/productDetails.jpeg" width="220" />
-<img src="./screenshots/productDetails2.jpeg" width="220" />
+### UI / UX
+- Light & Dark Mode
+- Responsive UI
+- Smooth Animations
+- Clean Modern Interface
 
-### Wishlist
-<img src="./screenshots/whisList.jpeg" width="220" />
+---
 
-### Cart & Checkout
-<img src="./screenshots/cart.jpeg" width="220" />
-<img src="./screenshots/orderReview.jpeg" width="220" />
-<img src="./screenshots/payment_stripe.jpeg" width="220" />
+# Tech Stack
 
-### Orders
-<img src="./screenshots/myOrders.jpeg" width="220" />
+Flutter  
+Dart  
+GetX (State Management & Navigation)  
+Firebase (Authentication & Database)  
+Stripe (Online Payments)  
+Cloudinary (Image Hosting)
 
-### Profile
-<img src="./screenshots/profile.jpeg" width="220" />
-<img src="./screenshots/editprofile.jpeg" width="220" />
+---
 
-### Addresses
-<img src="./screenshots/Addresses.jpeg" width="220" />
-<img src="./screenshots/deleteAdreess.jpeg" width="220" />
+# Screenshots
 
-### Splash
-<img src="./screenshots/splash.jpeg" width="220" />
+## Onboarding
+
+| Onboarding |
+|------------|
+| ![](assets/screenshots/onboarding.png) |
+
+---
+
+## Authentication
+
+| Login | Register |
+|------|------|
+| ![](assets/screenshots/login.png) | ![](assets/screenshots/register.png) |
+
+---
+
+## Home (Light / Dark)
+
+| Light Mode | Dark Mode |
+|------------|-----------|
+| ![](assets/screenshots/home_light.png) | ![](assets/screenshots/home_dark.png) |
+
+---
+
+## Store
+
+| Store |
+|------|
+| ![](assets/screenshots/store.png) |
+
+---
+
+## Search
+
+| Search |
+|------|
+| ![](assets/screenshots/search.png) |
+
+---
+
+## Product Details
+
+| Product Details |
+|------|
+| ![](assets/screenshots/product_details.png) |
+
+---
+
+## Wishlist
+
+| Wishlist |
+|------|
+| ![](assets/screenshots/wishlist.png) |
+
+---
+
+## Cart & Checkout
+
+| Cart | Checkout |
+|------|------|
+| ![](assets/screenshots/cart.png) | ![](assets/screenshots/checkout.png) |
+
+---
+
+## Orders
+
+| Orders |
+|------|
+| ![](assets/screenshots/orders.png) |
+
+---
+
+## Profile
+
+| Profile |
+|------|
+| ![](assets/screenshots/profile.png) |
+
+---
+
+## Addresses
+
+| Addresses |
+|------|
+| ![](assets/screenshots/addresses.png) |
+
+---
+
+## Splash Screen
+
+| Splash |
+|------|
+| ![](assets/screenshots/splash.png) |
+
+---
+
+# Project Structure
