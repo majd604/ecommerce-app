@@ -17,7 +17,7 @@ class UKeys {
   static const String cloudName = 'dreuicigr';
   static const String uploadPreset = 'upload_image';
   static const String profileFolder = 'Profile Pictures';
-  static const String apiKey = '339893125211448';
+  static const String apiKey = 'YOUR_CLOUDINARY_API_KEY';
   static const String apiSecret = 'YOUR_CLOUDINARY_API_SECRET';
 
   static const String categoryFolder = 'category Pictures';
@@ -27,6 +27,6 @@ class UKeys {
   static const String productsFolder = 'Products Images';
 
   static const String cartItemsKey = 'cartItems';
-  static const String stripeSecretKey = 'YOUR_STRIPE_SECRET_KEY';
+  static const String stripeSecretKey = "YOUR_STRIPE_SECRET_KE";
   static const String stripePublishableKey = 'YOUR_STRIPE_PUBLISHABLE_KEY';
 }
