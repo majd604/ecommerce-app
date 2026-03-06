@@ -1,153 +1,201 @@
 # Flutter E-Commerce App 🛒
 
-A modern **E-Commerce Mobile Application** built using **Flutter** with a complete shopping experience including authentication, product browsing, cart management, checkout, and secure payments.
+A modern **Flutter E-Commerce Mobile Application** that provides a complete shopping experience including authentication, product browsing, wishlist, cart management, checkout, secure payments, promo code discounts, and order tracking.
 
-This project demonstrates building a **real-world Flutter application** using **Firebase**, **GetX state management**, and **Stripe payment integration**.
+This project demonstrates building a **real-world Flutter application** using **GetX architecture, Firebase services, Stripe payments, and Cloudinary image hosting**.
 
 ---
 
 # Features
 
-### Authentication
-- User Registration & Login
-- Email Verification
-- Password Reset
-- Google Sign-In
+## Authentication
 
-### Product & Store
-- Product Catalog
-- Product Categories
-- Product Search
-- Product Details Page
-- Wishlist System
+* User Sign In
+* User Registration
+* Email Verification
+* Password Reset
+* Google Sign-In
 
-### Shopping Experience
-- Add to Cart
-- Cart Management
-- Checkout System
-- Stripe Payment Integration
-- Order History
+## Product & Store
 
-### User Profile
-- Profile Management
-- Address Management
-- Saved Addresses
+* Product Catalog
+* Brand Filtering
+* Product Categories
+* Product Search
+* Product Details
+* Product Variations
 
-### UI / UX
-- Light & Dark Mode
-- Responsive UI
-- Smooth Animations
-- Clean Modern Interface
+## Shopping Experience
+
+* Add to Cart
+* Cart Management
+* Checkout System
+* Stripe Payment Integration
+* Order Review Screen
+* Order History Tracking
+
+## Discounts
+
+* Promo Code System
+* Automatic Discount Calculation
+
+## User Profile
+
+* Profile Management
+* Profile Editing
+* Address Management
+* Delete Address
+* Multiple Saved Addresses
+
+## UI / UX
+
+* Light Mode & Dark Mode across the entire application
+* Responsive Layout
+* Smooth Animations
+* Skeleton Loading Screens
+* Clean Modern Design
 
 ---
 
 # Tech Stack
 
-Flutter  
-Dart  
-GetX (State Management & Navigation)  
-Firebase (Authentication & Database)  
-Stripe (Online Payments)  
-Cloudinary (Image Hosting)
+* Flutter
+* Dart
+* GetX (State Management & Navigation)
+* Firebase Authentication
+* Cloud Firestore
+* Stripe Payment Gateway
+* Cloudinary Image Hosting
 
 ---
 
-# Screenshots
+# App Screenshots
 
 ## Onboarding
 
-| Onboarding |
-|------------|
-| ![](assets/screenshots/onboarding.png) |
+| Screen 1                                | Screen 2                                | Screen 3                                |
+| --------------------------------------- | --------------------------------------- | --------------------------------------- |
+| ![](assets/screenshots/onbording1.jpeg) | ![](assets/screenshots/onbording2.jpeg) | ![](assets/screenshots/onbording3.jpeg) |
 
 ---
 
 ## Authentication
 
-| Login | Register |
-|------|------|
-| ![](assets/screenshots/login.png) | ![](assets/screenshots/register.png) |
+| Sign In                             | Sign Up                             |
+| ----------------------------------- | ----------------------------------- |
+| ![](assets/screenshots/signin.jpeg) | ![](assets/screenshots/signup.jpeg) |
 
 ---
 
 ## Home (Light / Dark)
 
-| Light Mode | Dark Mode |
-|------------|-----------|
-| ![](assets/screenshots/home_light.png) | ![](assets/screenshots/home_dark.png) |
+| Light Mode                        | Dark Mode                          |
+| --------------------------------- | ---------------------------------- |
+| ![](assets/screenshots/home.jpeg) | ![](assets/screenshots/home2.jpeg) |
 
 ---
 
 ## Store
 
-| Store |
-|------|
-| ![](assets/screenshots/store.png) |
+| Store View                         | All Brands                             |
+| ---------------------------------- | -------------------------------------- |
+| ![](assets/screenshots/store.jpeg) | ![](assets/screenshots/AllBrands.jpeg) |
 
 ---
 
 ## Search
 
-| Search |
-|------|
-| ![](assets/screenshots/search.png) |
+| Search Results                      | Search View                          |
+| ----------------------------------- | ------------------------------------ |
+| ![](assets/screenshots/search.jpeg) | ![](assets/screenshots/search2.jpeg) |
 
 ---
 
 ## Product Details
 
-| Product Details |
-|------|
-| ![](assets/screenshots/product_details.png) |
+| Product Page                                | Product Variations                           |
+| ------------------------------------------- | -------------------------------------------- |
+| ![](assets/screenshots/productDetails.jpeg) | ![](assets/screenshots/productDetails2.jpeg) |
 
 ---
 
 ## Wishlist
 
-| Wishlist |
-|------|
-| ![](assets/screenshots/wishlist.png) |
+| Wishlist                              |
+| ------------------------------------- |
+| ![](assets/screenshots/whisList.jpeg) |
 
 ---
 
 ## Cart & Checkout
 
-| Cart | Checkout |
-|------|------|
-| ![](assets/screenshots/cart.png) | ![](assets/screenshots/checkout.png) |
+| Cart                              | Order Review                             |
+| --------------------------------- | ---------------------------------------- |
+| ![](assets/screenshots/cart.jpeg) | ![](assets/screenshots/orderReview.jpeg) |
+
+---
+
+## Payments
+
+| Stripe Payment                              |
+| ------------------------------------------- |
+| ![](assets/screenshots/payment_stripe.jpeg) |
 
 ---
 
 ## Orders
 
-| Orders |
-|------|
-| ![](assets/screenshots/orders.png) |
+| Order History                         |
+| ------------------------------------- |
+| ![](assets/screenshots/myOrders.jpeg) |
 
 ---
 
 ## Profile
 
-| Profile |
-|------|
-| ![](assets/screenshots/profile.png) |
+| Profile                              | Edit Profile                             |
+| ------------------------------------ | ---------------------------------------- |
+| ![](assets/screenshots/profile.jpeg) | ![](assets/screenshots/editprofile.jpeg) |
 
 ---
 
-## Addresses
+## Address Management
 
-| Addresses |
-|------|
-| ![](assets/screenshots/addresses.png) |
+| Addresses                              | Delete Address                            |
+| -------------------------------------- | ----------------------------------------- |
+| ![](assets/screenshots/Addresses.jpeg) | ![](assets/screenshots/deleteAdress.jpeg) |
 
 ---
 
 ## Splash Screen
 
-| Splash |
-|------|
-| ![](assets/screenshots/splash.png) |
+| Splash                              |
+| ----------------------------------- |
+| ![](assets/screenshots/splash.jpeg) |
 
 ---
 
 # Project Structure
+
+```
+lib
+ ┣ common
+ ┣ data
+ ┣ features
+ ┣ utils
+ ┗ main.dart
+```
+
+---
+
+# Notes
+
+This project is built as a **portfolio application** to demonstrate building scalable Flutter applications using modern tools and clean architecture practices.
+
+Sensitive keys such as **Stripe API keys and Cloudinary secrets are removed from this repository** and should be added locally when running the project.
+
+---
+
+# Repository
+
+https://github.com/majd604/ecommerce-app
